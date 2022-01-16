@@ -1,6 +1,6 @@
       ******************************************************************
       *Author: David Nguyen
-      *Date: January 14, 2022
+      *Due Date: January 21, 2022
       *Purpose: lab1
       ******************************************************************
        IDENTIFICATION DIVISION.
@@ -20,7 +20,7 @@
        01  INPUT-RECORD PIC X(80).
        FD  OUTPUT-FILE
                LABEL RECORDS ARE OMITTED.
-       01  OUTPUT-RECORD PIC X(110).
+       01  OUTPUT-RECORD PIC X(100).
        WORKING-STORAGE SECTION.
        01  INPUT-DATA.
            03 I-NAME PIC X(20).
